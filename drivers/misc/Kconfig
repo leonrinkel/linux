@@ -483,6 +483,12 @@ config OPEN_DICE
 
 	  If unsure, say N.
 
+config WHATEVER
+	tristate "Whatever driver for nothing"
+	default n
+	help
+	  Me playin with kernel.
+
 source "drivers/misc/c2port/Kconfig"
 source "drivers/misc/eeprom/Kconfig"
 source "drivers/misc/cb710/Kconfig"
